@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>תואר ראשון בטכנולוגיות למידה</title>
+    <meta name="description" content="הרשמה לתואר  ראשון בטכנולוגיות למידה" />
+    <meta name="keywords" content="תואר ראשון, טכנולוגיות, למידה, HIT, מפתח, הדרכה" />
+    <meta name="author" content="HIT" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    
+</head>
+<body>
+
+    <div id="container">
+        <img id="back" src="image/מחממים-מנועים-למידה-דיגיטלית.jpg" />
+        <article id="inf">
+            <section>
+                <h1 class="top">מזה טכנולוגיות למידה? (טל"מ)</h1>
+                <p class="inf">זהו תואר שבמהלכו לומדים לפתח מערכות טכנולוגיות שבאמצעותם ניתן ללמד ולהדריך.</p>
+                <h2 class="top">מה לומדים בתואר?</h2>
+                <p class="inf">במהלך התואר לומדים קורסים במגוון תחומי הטכנולוגיה, פיתוח הדרכה ועיצוב מולטימדיה אינטראקטיבית</p>
+                <h3 class="top">למי מיועד התואר?</h3>
+                <ul class="inf">
+                    <li>למתעניינים בעולמות של ניו-מדיה ותוכן דיגיטאלי ורוצים להפוך את התחביב למקצוע מבוקש.</li>
+                    <li>לבעלי עניין ורקע בהדרכה (בצבא או בכל מסגרת אחרת) ו/או בעיצוב ממשק ואינטראקטיב.</li>
+                    <li>לבעלי "ראש גדול", המעוניינים לשלב בין כמה עולמות ולהיות המובילים בתחום חדש ומאתגר.</li>
+                </ul>
+            </section>
+
+            <section id="form">
+                <h2 class="top">רוצים מידע נוסף? להרשמה השאירו פרטים כאן:</h2>
+                <form>
+                    <input type="hidden" id="myEmail" name="name" value="eden8596@gmail.com">
+
+
+                    <label for="FirstName">
+                        שם פרטי:
+                        <input type="text" id="FirstName" placeholder="הכנס שם פרטי" />
+                    </label>
+
+                    <label for="LastName">
+                        שם משפחה:
+                        <input type="text" id="LastName" placeholder="הכנס שם המשפחה" />
+                    </label>
+
+                    <label for="mySelect">
+                        מספר טלפון
+                        <input type="text" id="phone" placeholder="הכנס מספר טלפון" />
+                        <select id="mySelect">
+                            <option value="1" selected>050</option>
+                            <option value="2">052</option>
+                            <option value="3">053</option>
+                            <option value="4">054</option>
+                        </select>
+
+                    </label>
+
+                    <label for="cb1">
+                        אימייל
+                        <input type="text" id="Email" placeholder="הכנס אימייל" />
+                        <input type="checkbox" id="cb1" checked /> מעוניין במידע נוסף
+                    </label>
+
+
+                    <input type="submit" id="Send" value="שלח">
+
+                    <div id="feedback"></div>
+
+                </form>
+
+            </section>
+        </article>
+        <footer>
+            <img src="image/HitHolonLogo.svg.png" width="130" height="100" />
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
